@@ -19,4 +19,16 @@ git clone https://github.com/AhlemBS/repositories-manager.git
 cd repositories-manager
 npm install
 ng serve
-# repositories-manager
+
+ ```
+
+ ## Usage
+
+Open http://localhost:4200 in your browser.
+
+http://localhost:4200/repos to search repositories by name or text
+
+Click a repository to view its commits on the Commits page.
+
+http://localhost:4200/commits/:ownerName/:repoName , to list all the commits of a given repository
+
